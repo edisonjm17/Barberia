@@ -1,0 +1,92 @@
+header{
+    background: #bbbbbb;
+    padding: 20px 0;
+}
+
+.bloque1{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 40px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+.productos{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /*borde*/ border: black solid 2px;
+    border-radius: 10px;
+}
+
+.productos li:hover{
+    border-color: orange;
+}
+
+.productos li:active{
+    border-color: green;
+}
+
+.productos h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+.descripcion{
+    font-size: 18px;
+}
+
+.precio{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url(barberia/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
